@@ -2,7 +2,7 @@ import logging
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 
-from app.response import SuccessResponse
+from app.responses import SuccessResponse
 from app.service import HelloServiceFactory
 
 logger = logging.getLogger("endpoint.hello")
